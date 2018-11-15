@@ -1,0 +1,46 @@
+
+/* General Selector */
+* {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+a {
+  color: blue;
+}
+
+/* Header  */
+
+.header {
+  background-image: url(../resources/pattern.jpeg);
+  height: 120px;
+  width: 100%;
+  font-size: 50px;
+  color: khaki;
+  text-align: center;
+  margin: auto auto 50px auto;
+}
+
+/* General Styling for Section Headings */
+
+.headingText {
+  font-size: 16px;
+  color: white;
+  margin: auto auto 20px auto;
+  height: 32px;
+
+}
+
+
+#brushesHeading { /* Specifies the background color of the Brushes Heading */
+  background-color: mediumspringgreen;
+
+}
+
+#framesHeading { /* Specifies the background color the Frames Heading */
+  background-color: lightcoral;
+
+}
+
+#paintHeading { /* Specifies the background color the Paint Heading */
+  background-color: skyblue;
+}
